@@ -3,32 +3,40 @@ import './Styles.css';
 import bio from '../../assets/bio.png'
 import logo from '../../assets/logo.svg'
 import speed from '../../assets/speed.png'
+import zully from '../../assets/zully.jpeg'
+import auto from '../../assets/auto.jpg'
+import curso from '../../assets/curso.png'
 
 export const Linktree = () => {
   return (
     <div>
         <div className='container'>
             <img src={bio} alt='foto' className='profile'/>
-            <h1>Luis E. Diaz</h1>
-            <p className='sub-title'>Bienvenido a mi Linktree!</p>
-            <a href='https://www.linkedin.com/in/luis-enrique-diaz-brice%C3%B1o-b4662124b/' className='link'  target='_blank'>
-            <img src='https://img.icons8.com/?size=40&id=xuvGCOXi8Wyg&format=png&color=000000' alt='link'/>
-            <p>LinKedin</p>
+            <h2>Luis E. Diaz</h2>
+            <p className='sub-title'>Bienvenido a mis Proyectos</p>
+            <a href='https://www.zullydiaz.com' className='link'  target='_blank'>
+            <img src={zully} alt='logo' width={30}/>
+            <p>Psicologa</p>
             </a>
 
-            <a href='https://www.luisediaz.co/' className='link' target='_blank'>
-            <img src='https://img.icons8.com/?size=40&id=naDnVpQ3BNkR&format=png&color=000000' alt='link'/>
-            <p>Portfolio</p>
+            <a href='https://autos-6nkd.vercel.app/' className='link' target='_blank'>
+            <img src={auto} alt='logo' width={50}/>
+            <p>Auto.com</p>
             </a>
 
             <a href='https://saboresdevenezuela.online/' className='link'  target='_blank'>
             <img src={logo} alt='logo' width={40}/>
-            <p>Proyecto</p>
+            <p>Sab. de Vzla.</p>
             </a>
 
             <a href='https://www.speedweb.live/' className='link'  target='_blank'>
             <img src={speed} alt='logo' width={50}/>
-            <p>Proyecto</p>
+            <p>Pagina Web</p>
+            </a>
+
+            <a href='https://cursos-nine-lac.vercel.app/' className='link'  target='_blank'>
+            <img src={curso} alt='logo' width={40}/>
+            <p>Cursos online</p>
             </a>
         </div>
     </div>
